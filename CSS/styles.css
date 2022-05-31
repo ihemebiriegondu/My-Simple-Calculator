@@ -1,0 +1,27 @@
+.container-sm{
+    padding: 0;
+    margin: 10rem auto;
+    border: 2px solid black;
+    width: 20rem;
+}
+
+#display{
+    padding: 5rem 0;
+}
+
+#keyboard {
+    padding: 0 1rem;
+}
+
+#keyboard ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.btn{
+    background-color: rgb(131, 253, 9);
+    margin: 4px;
+    color: white;
+    text-align: center;
+}
