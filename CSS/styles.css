@@ -1,16 +1,19 @@
-.container-sm{
+.container-sm {
     padding: 0;
-    margin: 10rem auto;
-    border: 2px solid black;
-    width: 20rem;
+    margin: 7rem auto;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 22rem;
+    background: linear-gradient(45deg, rgba(255, 0, 212, 0.7) 40%, rgba(255, 162, 0, 0.7));
 }
 
-#display{
+#display {
     padding: 5rem 0;
 }
 
 #keyboard {
-    padding: 0 1rem;
+    padding: 0 0.75rem;
+    background-color: white;
 }
 
 #keyboard ul {
@@ -19,9 +22,45 @@
     margin: 0;
     width: 100%;
 }
-.btn{
-    background-color: rgb(131, 253, 9);
-    margin: 4px;
-    color: white;
+
+.btn {
+    background-color: white;
+    color: black;
     text-align: center;
+    padding: 1rem;
+    border: 0.01px solid rgb(249, 246, 246);
+    font-size: 1.5rem;
+}
+
+.btn:hover {
+    background-color: white;
+    border: 1px solid pink;
+}
+
+#keyboard ul div:nth-of-type(5) li:nth-of-type(4) {
+    background: linear-gradient(45deg, rgb(255, 0, 212), rgb(255, 162, 0));
+    color: white;
+}
+
+#keyboard ul div:nth-of-type(1) {
+    background-color: rgb(249, 249, 249);
+}
+
+#keyboard ul div:nth-of-type(1) li:nth-of-type(1) {
+    color: rgb(245, 35, 98);
+}
+
+#keyboard ul div:nth-of-type(1) li,
+#keyboard ul div:nth-of-type(2) li:nth-of-type(1),
+#keyboard ul div:nth-of-type(3) li:nth-of-type(1),
+#keyboard ul div:nth-of-type(4) li:nth-of-type(1) {
+    background-color: rgb(251, 244, 244);
+    border: 1px solid rgb(251, 244, 244);
+}
+
+#keyboard ul div:nth-of-type(1) li:hover,
+#keyboard ul div:nth-of-type(2) li:nth-of-type(1):hover,
+#keyboard ul div:nth-of-type(3) li:nth-of-type(1):hover,
+#keyboard ul div:nth-of-type(4) li:nth-of-type(1):hover {
+    border: 1px solid pink;
 }

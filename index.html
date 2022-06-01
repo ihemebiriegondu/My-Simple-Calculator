@@ -25,7 +25,11 @@
     </header>
 
     <main>
-        <section class="container-sm">
+        <div id="toggle-mode">
+            <i class="fa-solid fa-toggle-off"></i>
+            <!--<i class="fa-solid fa-toggle-on"></i>-->
+        </div>
+        <section class="container-sm shadow-lg">
             <div id="display">
                 <!--for display of pressed number-->
             </div>
@@ -33,30 +37,32 @@
             <div id="keyboard">
                 <ul>
                     <div class="row">
-                        <li class="btn col">CE</li>
-                        <li class="btn col"><i class="fa-solid fa-delete-left"></i></li>
-                        <li class="btn col"><i class="fa-solid fa-divide"></i></li>
-                        <li class="btn col">X</li>
+                        <li class="btn col">C</li>
+                        <li class="btn col">+/_</li>
+                        <li class="btn col">%</li>
+                        <li class="btn col pt-3"><i class="fa-solid fa-divide pt-1"></i></li>
                     </div>
                     <div class="row">
-                        <li class="btn col">+</li>
-                        <li class="btn col">-</li>
-                        <li class="btn col">9</li>
-                        <li class="btn col">8</li>
+                        <li class="btn col order-4">x</li>
+                        <li class="btn col order-3">9</li>
+                        <li class="btn col order-2">8</li>
+                        <li class="btn col">7</li>
                     </div>
                     <div class="row"> 
-                        <li class="btn col">7</li>
-                        <li class="btn col">6</li>
-                        <li class="btn col">5</li>
+                        <li class="btn col order-4">-</li>
+                        <li class="btn col order-3">6</li>
+                        <li class="btn col order-2">5</li>
                         <li class="btn col">4</li>
                     </div>
                     <div class="row">
-                        <li class="btn col">3</li>
-                        <li class="btn col">2</li>
+                        <li class="btn col order-4">+</li>
+                        <li class="btn col order-3">3</li>
+                        <li class="btn col order-2">2</li>
                         <li class="btn col">1</li>
-                        <li class="btn col">0</li>
                     </div>
                     <div class="row">
+                        <li class="btn col">0</li>
+                        <li class="col"></li>
                         <li class="btn col">.</li>
                         <li class="btn col">=</li>
                     </div>
