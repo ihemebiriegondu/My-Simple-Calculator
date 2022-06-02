@@ -63,26 +63,44 @@
     color: rgb(245, 35, 98);
 }
 
-#keyboard ul div:nth-of-type(1) li,
-#keyboard ul div:nth-of-type(2) li:nth-of-type(1),
-#keyboard ul div:nth-of-type(3) li:nth-of-type(1),
-#keyboard ul div:nth-of-type(4) li:nth-of-type(1) {
+.diff-color{
     background-color: rgb(251, 244, 244);
     border: 1px solid rgb(251, 244, 244);
 }
 
-#keyboard ul div:nth-of-type(1) li:hover,
-#keyboard ul div:nth-of-type(2) li:nth-of-type(1):hover,
-#keyboard ul div:nth-of-type(3) li:nth-of-type(1):hover,
-#keyboard ul div:nth-of-type(4) li:nth-of-type(1):hover {
+.diff-color:hover{
     border: 1px solid pink;
+    background-color: rgb(251, 244, 244);
 }
 
 .dark-mode {
-    background-color: black;
+    background-color: rgb(186, 178, 178);
     color: white;
 }
 
+.dark-mode-btn {
+    background-color: rgb(35, 35, 35);
+    color: white;
+    border: 1px solid rgb(35, 35, 35);
+}
+
+.dark-mode-btn:hover{
+    background-color: rgb(35, 35, 35);
+    color: white;
+    border: 1px solid rgb(78, 77, 77);
+}
+
+.diff-color-dark-mode-btn{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    border: 1px solid rgb(27, 26, 26);
+}
+
+.diff-color-dark-mode-btn:hover{
+    background-color: rgb(27, 27, 27);
+    color: white;
+    border: 1px solid rgb(78, 77, 77);
+}
 
 @media (max-width: 720px) {
     .container-sm {
