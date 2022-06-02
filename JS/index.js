@@ -19,10 +19,11 @@ function toggler() {
     });
 
     if (change.classList.contains("dark-mode")) {
-        toggleMode.classList.add("fa-sun");
+        toggleMode.src = "./icons/icons8-sun.svg";
         darkKeyboard.style.backgroundColor = "rgb(35, 35, 35)";
         firstRow.style.backgroundColor = "rgb(35, 35, 35)";
     } else {
+        toggleMode.src = "./icons/icons8-moon-64.png";
         toggleMode.classList.remove("fa-moon");
         toggleMode.classList.add("fa-sun")
         darkKeyboard.style.backgroundColor = "white";
