@@ -32,39 +32,45 @@
             <section class="container-sm shadow-lg">
                 <div id="display">
                     <!--for display of pressed number-->
+                    <div data-previous-operand id="previous-display">
+                        123 +
+                    </div>
+                    <div data-current-operand id="current-display">
+                        456
+                    </div>
                 </div>
     
                 <div id="keyboard">
                     <ul>
                         <div class="row">
-                            <li class="btn col diff-color">C</li>
-                            <li class="btn col diff-color">%</li>
-                            <li class="btn col pt-4 diff-color" id="sample" data-ans="/"><i class="fa-solid fa-divide pt-1 fa-xs"></i></li>
-                            <li class="btn col pt-4 diff-color"><i class="fa-solid fa-delete-left fa-xs"></i></li>
+                            <li class="btn col diff-color" data-all-clear>C</li>
+                            <li class="btn col diff-color" data-operation>%</li>
+                            <li class="btn col pt-4 diff-color" data-operation><i class="fa-solid fa-divide pt-1 fa-xs"></i></li>
+                            <li class="btn col pt-4 diff-color" data-delete><i class="fa-solid fa-delete-left fa-xs"></i></li>
                         </div>
                         <div class="row">
-                            <li class="btn col order-4 diff-color">x</li>
-                            <li class="btn col order-3">9</li>
-                            <li class="btn col order-2">8</li>
-                            <li class="btn col">7</li>
+                            <li class="btn col order-4 diff-color" data-operation>x</li>
+                            <li class="btn col order-3" data-number>9</li>
+                            <li class="btn col order-2" data-number>8</li>
+                            <li class="btn col" data-number>7</li>
                         </div>
                         <div class="row"> 
-                            <li class="btn col order-4 diff-color">-</li>
-                            <li class="btn col order-3">6</li>
-                            <li class="btn col order-2">5</li>
-                            <li class="btn col">4</li>
+                            <li class="btn col order-4 diff-color" data-operation>-</li>
+                            <li class="btn col order-3" data-number>6</li>
+                            <li class="btn col order-2" data-number>5</li>
+                            <li class="btn col" data-number>4</li>
                         </div>
                         <div class="row">
-                            <li class="btn col order-4 diff-color">+</li>
-                            <li class="btn col order-3">3</li>
-                            <li class="btn col order-2">2</li>
-                            <li class="btn col">1</li>
+                            <li class="btn col order-4 diff-color" data-operation>+</li>
+                            <li class="btn col order-3" data-number>3</li>
+                            <li class="btn col order-2" data-number>2</li>
+                            <li class="btn col" data-number>1</li>
                         </div>
                         <div class="row">
-                            <li class="btn col">0</li>
+                            <li class="btn col" data-number>0</li>
                             <li class="col"></li>
-                            <li class="btn col">.</li>
-                            <li class="btn col">=</li>
+                            <li class="btn col" data-number>.</li>
+                            <li class="btn col" data-equals>=</li>
                         </div>
                     </ul>
                 </div>

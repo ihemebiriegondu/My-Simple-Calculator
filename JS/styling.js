@@ -8,12 +8,14 @@ function toggler() {
     let darkKeyboard = document.getElementById("keyboard");
     let diffColor = document.querySelectorAll(".diff-color");
     let firstRow = document.querySelector(".row");
+    let display = document.getElementById("display");
 
 
 
     change.classList.toggle("dark-mode");
     container.classList.toggle("dark-mode-container");
     darkKeyboard.classList.toggle("dark-mode-keyboard");
+    display.classList.toggle("dark-mode-display");
     darkBtn.forEach(button => {
         button.classList.toggle("dark-mode-btn");
     });

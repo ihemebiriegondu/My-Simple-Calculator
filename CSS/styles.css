@@ -31,6 +31,22 @@ body{
 
 #display {
     padding: 5rem 0;
+    height: 40px;
+}
+
+#previous-display{
+    display: flex;
+    justify-content: end;
+    font-size: 1.1rem;
+    margin-right: 2rem;
+    margin-top: -2rem;
+}
+
+#current-display{
+    display: flex;
+    justify-content: end;
+    font-size: 2rem;
+    margin: 1rem 1rem 2rem 0;
 }
 
 #keyboard {
@@ -105,6 +121,11 @@ body{
 
 .dark-mode-container {
     transform: rotateY(180deg);
+}
+
+.dark-mode-display {
+    color: black;
+    transform: rotateY(-180deg);
 }
 
 .diff-color-dark-mode-btn{
