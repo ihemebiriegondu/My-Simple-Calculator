@@ -151,11 +151,7 @@ main{
     .container-sm {
         margin: 1rem auto 0 auto;
         height: 90%;
-    }
-
-    #display {
-        height: 30%;
-    }
+    } 
 
     #keyboard {
         height: 70%;
