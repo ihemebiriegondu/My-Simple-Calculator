@@ -32,21 +32,23 @@ body{
 #display {
     padding: 5rem 0;
     height: 40px;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 
-#previous-display{
-    display: flex;
-    justify-content: end;
+.previous-operand{
     font-size: 1.1rem;
     margin-right: 2rem;
     margin-top: -2rem;
-}
-
-#current-display{
     display: flex;
     justify-content: end;
+}
+
+.current-operand{
     font-size: 2rem;
     margin: 1rem 1rem 2rem 0;
+    display: flex;
+    justify-content: end;
 }
 
 #keyboard {
