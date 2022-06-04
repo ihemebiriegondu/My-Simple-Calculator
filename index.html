@@ -26,26 +26,27 @@
 
     <main>
         <div id="toggle-mode">
-            <img src="./icons/PngItem_629144.png" alt="" id="toggle-icon" onclick="toggler()">
+            <i class="fa-solid fa-toggle-on fa-2x" id="toggle-icon" onclick="toggler()"></i>
         </div>
         <div id="full-component">
-            <section class="container-sm shadow-lg">
+            <section class="container-sm">
                 <div id="display">
                     <div data-previous-operand class="previous-operand">
-                        
+
                     </div>
                     <div data-current-operand class="current-operand">
                         0
                     </div>
                 </div>
-    
+
                 <div id="keyboard">
                     <ul>
                         <div class="row">
                             <li class="btn col diff-color" data-all-clear>C</li>
                             <li class="btn col diff-color" data-operation>%</li>
                             <li class="btn col diff-color" data-operation>÷</li>
-                            <li class="btn col pt-4 diff-color" data-delete><i class="fa-solid fa-delete-left fa-xs"></i></li>
+                            <li class="btn col pt-4 diff-color" data-delete><i
+                                    class="fa-solid fa-delete-left fa-xs"></i></li>
                         </div>
                         <div class="row">
                             <li class="btn col order-4 diff-color" data-operation>x</li>
@@ -53,7 +54,7 @@
                             <li class="btn col order-2" data-number>8</li>
                             <li class="btn col" data-number>7</li>
                         </div>
-                        <div class="row"> 
+                        <div class="row">
                             <li class="btn col order-4 diff-color" data-operation>-</li>
                             <li class="btn col order-3" data-number>6</li>
                             <li class="btn col order-2" data-number>5</li>
@@ -73,7 +74,7 @@
                         </div>
                     </ul>
                 </div>
-    
+
             </section>
         </div>
     </main>

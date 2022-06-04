@@ -1,17 +1,16 @@
 body{
-    background-color: rgb(255, 241, 241);
+    background-color: rgb(254, 252, 252);
 }
 
-#toggle-mode {
-    align-items: center;
-    margin-top: 3rem;
+main{
+    margin-top: 4rem
+}
+
+#toggle-mode{
     display: flex;
     justify-content: center;
+    align-items: center;
     cursor: pointer;
-}
-
-#toggle-mode img{
-    width: 30px;
 }
 
 #full-component {
@@ -21,10 +20,11 @@ body{
 
 .container-sm {
     padding: 0;
-    margin: 3rem auto 0 auto;
+    margin: 1rem auto 0 auto;
     border-radius: 8px;
     overflow: hidden;
     width: 22rem;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
     background: linear-gradient(45deg, rgba(255, 0, 212, 0.7) 40%, rgba(255, 162, 0, 0.7));
     transition: all 1s ease-in-out;
 }
@@ -101,7 +101,7 @@ body{
 }
 
 .dark-mode {
-    background-color: rgb(252, 226, 226);
+    background-color: black;
     color: white;
 }
 
@@ -143,6 +143,11 @@ body{
 }
 
 @media (max-width: 720px) {
+    main{
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    
     .container-sm {
         margin: 1rem auto 0 auto;
         height: 90%;
