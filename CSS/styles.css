@@ -151,7 +151,11 @@ main{
     .container-sm {
         margin: 1rem auto 0 auto;
         height: 90%;
+<<<<<<< HEAD
     }
+=======
+    } 
+>>>>>>> 48db4a327a6e48e34978bcf085d6e07391946d01
 
     .btn {
         font-size: 2rem;
