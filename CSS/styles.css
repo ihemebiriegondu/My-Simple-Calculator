@@ -153,18 +153,6 @@ main{
         height: 90%;
     }
 
-    #display {
-        height: 30%;
-    }
-
-    #keyboard {
-        height: 70%;
-    }
-
-    #keyboard ul {
-        height: 100%;
-    }
-
     .btn {
         font-size: 2rem;
     }
